@@ -20,9 +20,13 @@ public class AutoTime extends SequentialCommandGroup {
      * WRITE A SEQUENCE OF COMMANDS TO DRIVE THE ROBOT THROUGH A SECTION OF THE MAZE
     */
     addCommands(
-      new DriveTime(-0.6, 2.0),
+      new DriveTime(-0.4, 2.0),
+      new TurnTime(-0.1, 1.3),
+      new DriveTime(-0.4, 2.0),
+      new TurnTime(2.5, 1.3),
+      new DriveTime(-0.1, 2.0),
       new TurnTime(-0.5, 1.3),
-      new DriveTime(-0.6, 2.0),
+      new DriveTime(-0.4, 2.0),
       new TurnTime(0.5, 1.3)
     );
     /** !SECTION */
