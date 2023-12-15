@@ -3,7 +3,7 @@
 // Copyright (c) FIRST and other WPILib contributors.
 // Open Source Software; you can modify and/or share it under the terms of
 // the WPILib BSD license file in the root directory of this project.
-//elijah was here epic yes
+//elijah is cool epic now what i do
 package frc.robot;
 
 import org.opencv.osgi.OpenCVInterface;
