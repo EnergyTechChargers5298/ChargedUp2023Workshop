@@ -24,8 +24,12 @@ public class AutoTime extends SequentialCommandGroup {
       new TurnTime(-0.1, 1.3),
       new DriveTime(-0.4, 2.0),
       new TurnTime(2.5, 1.3),
-      new DriveTime(-0.1, 2.0),
-      new TurnTime(-0.5, 1.3),
+      new DriveTime(-0.4, 2.0),
+      new TurnTime(-0.1, 1.3),
+      new DriveTime(-0.4, 2.0),
+      new TurnTime(0.5, 1.3),
+      new DriveTime(-0.4, 2.0),
+      new TurnTime(-0.1, 1.3),
       new DriveTime(-0.4, 2.0),
       new TurnTime(0.5, 1.3)
     );
