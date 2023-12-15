@@ -24,6 +24,7 @@ import edu.wpi.first.wpilibj2.command.button.JoystickButton;
 import edu.wpi.first.wpilibj2.command.button.Trigger;
 import frc.robot.Constants.AutoPath;
 import frc.robot.Constants.SwerveConstants;
+import frc.robot.commands.AutoTime;
 import frc.robot.commands.basic.ArmReach;
 import frc.robot.commands.basic.ArmReset;
 import frc.robot.commands.basic.ArmRetract;
