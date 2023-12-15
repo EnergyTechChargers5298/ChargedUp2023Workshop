@@ -31,14 +31,14 @@ public class DriveTime extends CommandBase {
   }
 
   // Called when the command is initially scheduled.
-  @Override
+  @Override ///This is like the setUp
   public void initialize() {
     m_startTime = System.currentTimeMillis();
     drive.drive(0.0, 0.0, 0.0);
   }
 
   // Called every time the scheduler runs while the command is scheduled.
-  @Override
+  @Override ///This is like the loop
   public void execute() {
     drive.drive(0.0, speed, 0.0);
   }
